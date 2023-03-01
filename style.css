@@ -1,0 +1,130 @@
+#grad {
+    background-image: linear-gradient( to bottom, black, rgb(14, 48, 16), black);
+    height: 5000px;
+}
+
+
+@font-face {
+    font-family: Monaco;
+    font-size: large;
+    src: url('./assets/monaco.ttf');
+ }
+
+.h1   
+{
+    color: rgb(255, 217, 93);
+    font-family: Monaco;
+    font-size: 225%
+
+}
+.p{
+    color: Azure;
+    font-family: Monaco;
+    font-size: 225%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+    
+    
+.a{
+color: rgb(255, 251, 34);
+font-size: 50px;
+font-family: Monaco;
+}
+
+
+p.solid {border-style: solid;}
+          
+.a:hover{
+    color: Azure;
+}
+
+
+.span{
+    word-spacing: 30px;
+}
+
+
+
+.container-anisio {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.moldura {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+    width: 237px;
+    border: dashed 9px  rgb(255, 251, 34);
+}
+#carouselExampleControls {
+    width: 70%;
+}
+
+.akali-slider{
+    max-height: 100%;
+
+}
+
+.icon-size{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: -50px
+    
+    
+}
+
+.frame {
+    width: 1025px;
+    height: 600px;
+    border-style: dashed;
+    border: 3px solid #a36200;
+    background-image: linear-gradient( to bottom, black, rgb(255, 217, 93), black);
+    margin: auto;
+    padding: 15px 10px;
+  }
+
+  .frame2 {
+    width: 1025px;
+    height: 625px;
+    border-style: dashed;
+    border: 3px solid #a36200;
+    background-image: linear-gradient( to bottom, black, rgb(149, 223, 149), black);
+    margin: auto;
+    padding: 15px 10px;
+    display: flex
+  }
+  
+  .img2 {
+    width: 100%;
+    height: 100%;
+    display: flex
+  }
+
+  .img {
+    width: 100%;
+    height: 100%;
+    display: flex
+  }
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    flex: 10%;
+    padding: 100px;
+  }
+  
+  /* Clear floats after image containers */
+  .row {
+    display: flex;
+  }
+
+  .carousel_slide {
+    width: 50%;
+    height: 50%;
+    display: flex
+
+  }
